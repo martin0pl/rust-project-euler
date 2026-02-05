@@ -14,7 +14,7 @@ pub fn challenge() {
     }
 }
 
-pub fn crible_eratosthene (nb_max:usize) -> Vec<i32> {
+fn crible_eratosthene (nb_max:usize) -> Vec<i32> {
 
     // Réservation de la place
     let mut crible: Vec<bool> = Vec::with_capacity(nb_max);

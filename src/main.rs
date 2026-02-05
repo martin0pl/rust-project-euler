@@ -1,5 +1,5 @@
-mod challenge_2;
+mod challenge_3;
 
 fn main() {
-    challenge_2::challenge();
+    challenge_3::_crible_eratosthene(2012);
 }

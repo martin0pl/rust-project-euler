@@ -1,5 +1,5 @@
-mod challenge_4;
+mod challenge_5;
 
 fn main() {
-    challenge_4::challenge();
+    challenge_5::challenge();
 }

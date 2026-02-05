@@ -4,10 +4,16 @@ pub fn challenge() {
     valeurs.push(1);
     valeurs.push(2);
 
-    while valeurs[valeurs.len()-1] + valeurs[valeurs.len()-2] <= 4000000 {
-        valeurs.push(valeurs[valeurs.len()-1] + valeurs[valeurs.len()-2]);
-    }
+    let mut somme_globale = 0;
+    let mut somme ;
 
-    println!("{}",valeurs.len());
+    while valeurs[valeurs.len()-1] + valeurs[valeurs.len()-2] <= 4000000 {
+        somme = valeurs[valeurs.len()-1] + valeurs[valeurs.len()-2];
+        valeurs.push(somme);
+        if somme%2==0 {
+            somme_globale += somme;
+        }
+    }
+    println!("{}",somme_globale+2);
 
 }

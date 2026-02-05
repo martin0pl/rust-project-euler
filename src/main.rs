@@ -1,6 +1,6 @@
-mod challenge_1;
+mod challenge_2;
 
 fn main() {
     println!("Hello, world!");
-    challenge_1::challenge();
+    challenge_2::challenge();
 }

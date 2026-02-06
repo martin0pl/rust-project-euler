@@ -1,5 +1,5 @@
-// eho
+mod challenge_7;
 
 fn main() {
-    println!("eho");
+    challenge_7::challenge();
 }
